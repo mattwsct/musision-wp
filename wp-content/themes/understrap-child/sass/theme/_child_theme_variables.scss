@@ -1,65 +1,66 @@
 // Use this file to overwrite the basic Bootstrap variables and add your own variables
-// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
 // Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
 // As example you find one of the most important Bootstrap variable below: $brand-primary.
 // Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
+
 //
 // Color system
 //
 
-$primary: #ffaa5e;
-$grey: #f1f1f1;
-$teal: #45cbd6;
-$agrum: #ff8a6a;
-$light-blue: #238ac5;
-$alternate-orange: #ff8a6a;
+$primary: #FFAA5E;
+$grey: #F1F1F1;
+$teal: #45CBD6;
+$agrum: #FF8A6A;
+$light-blue: #238AC5;
+$alternate-orange: #FF8A6A;
 
-//
+// 
 // Images
 //
 
-$keyboard: url("../images/shutterstock_keyboard.jpg");
-$drunks: url("../images/shutterstock_drunks.jpg");
-$sweater: url("../images/shutterstock_sweater.jpg");
-$family: url("../images/shutterstock_family.jpg");
-$manga: url("../images/manga.jpg");
-$other-family: url("../images/other-family@2x.jpg");
-$family-instruments: url("../images/image4.jpg");
-$studio: url("../images/161216ROLAND0247.jpg");
-$video-editing: url("../images/live-image.jpg");
-$gamers: url("../images/shutterstock_gamers.jpg");
-$crazy: url("../images/shutterstock_crazy.jpg");
-$house: url("../images/shutterstock_house.jpg");
-$quotes: url("../images/Quotes_Gradient@2x.png");
-$family-header: url("../images/Family_Header_Img@2x.jpg");
-$studio-header: url("../images/Music-studio_Header_img@2x.jpg");
-$video-editing-header: url("../images/live-header.jpg");
-$header-1: url("../images/header-1@2x.jpg");
-$header-2: url("../images/header-2@2x.jpg");
-$header-3: url("../images/header-3@2x.jpg");
-$header-5: url("../images/header-5@2x.jpg");
-$whats-new-1: url("../images/whats-new-1@2x.jpg");
-$whats-new-2: url("../images/whats-new-2@2x.jpg");
-$whats-new-3: url("../images/whats-new-3@2x.jpg");
-$instrument-1: url("../images/KF-10_op_ch_2@2x.png");
-$instrument-2: url("../images/flute@2x.png");
-$instrument-3: url("../images/HP704_Black@2x.png");
-$instrument-4: url("../images/slide-4.png");
-$instrument-5: url("../images/slide-5.png");
-$instrument-6: url("../images/slide-6.png");
-$tascam-slide-1: url("../images/link_us-32.png");
-$tascam-slide-2: url("../images/link_us-42.png");
-$equipment-slide-1: url("../images/headphones.png");
-$equipment-slide-2: url("../images/microphone.png");
-$equipment-slide-3: url("../images/devices.jpg");
-$video-slide-1: url("../images/20180630_tascamministudio_0055.jpg");
-$video-slide-2: url("../images/20180630_tascamministudio_0167.jpg");
-$video-slide-3: url("../images/20180630_tascamministudio_0198.jpg");
-$video-slide-4: url("../images/20180630_tascamministudio_0257.jpg");
-$video-slide-5: url("../images/20180630_tascamministudio_0269.jpg");
-$video-slide-6: url("../images/20180630_tascamministudio_0383.jpg");
+$keyboard: url('../images/shutterstock_keyboard.jpg');
+$drunks: url('../images/shutterstock_drunks.jpg');
+$sweater: url('../images/shutterstock_sweater.jpg');
+$family: url('../images/shutterstock_family.jpg');
+$manga: url('../images/manga.jpg');
+$other-family: url('../images/other-family@2x.jpg');
+$family-instruments: url('../images/image4.jpg');
+$studio: url('../images/161216ROLAND0247.jpg');
+$video-editing: url('../images/live-image.jpg'); 
+$gamers: url('../images/shutterstock_gamers.jpg');
+$crazy: url('../images/shutterstock_crazy.jpg');
+$house: url('../images/shutterstock_house.jpg');
+$quotes: url('../images/Quotes_Gradient@2x.png');
+$family-header: url('../images/Family_Header_Img@2x.jpg');
+$studio-header: url('../images/Music-studio_Header_img@2x.jpg');
+$video-editing-header: url('../images/live-header.jpg');
+$header-1: url('../images/header-1@2x.jpg');
+$header-2: url('../images/header-2@2x.jpg');
+$header-3: url('../images/header-3@2x.jpg');
+$header-5: url('../images/header-5@2x.jpg');
+$whats-new-1: url('../images/whats-new-1@2x.jpg');
+$whats-new-2: url('../images/whats-new-2@2x.jpg');
+$whats-new-3: url('../images/whats-new-3@2x.jpg');
+$instrument-1: url('../images/KF-10_op_ch_2@2x.png');
+$instrument-2: url('../images/flute@2x.png');
+$instrument-3: url('../images/HP704_Black@2x.png');
+$instrument-4: url('../images/slide-4.png');
+$instrument-5: url('../images/slide-5.png');
+$instrument-6: url('../images/slide-6.png');
+$tascam-slide-1: url('../images/link_us-32.png');
+$tascam-slide-2: url('../images/link_us-42.png');
+$equipment-slide-1: url('../images/headphones.png');
+$equipment-slide-2: url('../images/microphone.png');
+$equipment-slide-3: url('../images/devices.jpg');
+$video-slide-1: url('../images/20180630_tascamministudio_0055.jpg');
+$video-slide-2: url('../images/20180630_tascamministudio_0167.jpg');
+$video-slide-3: url('../images/20180630_tascamministudio_0198.jpg');
+$video-slide-4: url('../images/20180630_tascamministudio_0257.jpg');
+$video-slide-5: url('../images/20180630_tascamministudio_0269.jpg');
+$video-slide-6: url('../images/20180630_tascamministudio_0383.jpg');
 
-$logo-white: url("../images/Logo_Presented-by_White.svg");
-$logo-black: url("../images/Logo_Presented-by_Black.svg");
+$logo-white: url('../images/Logo_Presented-by_White.svg');
+$logo-black: url('../images/Logo_Presented-by_Black.svg');
